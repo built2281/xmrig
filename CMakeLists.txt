@@ -10,6 +10,7 @@ option(BUILD_STATIC  "Build static binary" OFF)
 
 include (CheckIncludeFile)
 include (cmake/cpu.cmake)
+configure_file (config.json config.json COPYONLY)
 
 
 set(HEADERS
